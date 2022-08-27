@@ -11,9 +11,21 @@
   <component name="ChangeListManager">
     <list default="true" id="7ddfc209-04fc-48ea-be51-d502ebc30c34" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
@@ -46,7 +58,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/new.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/show.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/person/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,27 +100,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dora/Desktop/SpringMVC",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "ebf85741b99c595fd8e371acde50121c"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dora/Desktop/SpringMVC&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ebf85741b99c595fd8e371acde50121c&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/person" />
     </key>
   </component>
@@ -227,7 +239,9 @@
       <workItem from="1661095356010" duration="4848000" />
       <workItem from="1661144232585" duration="2658000" />
       <workItem from="1661165104642" duration="121000" />
-      <workItem from="1661165315107" duration="30336000" />
+      <workItem from="1661165315107" duration="30754000" />
+      <workItem from="1661527115056" duration="2553000" />
+      <workItem from="1661588404721" duration="2082000" />
     </task>
     <servers />
   </component>
