@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>All Peoples</title>
-    <link rel="stylesheet" href="style/index.css">
 </head>
-<body>
+<body th:class="header">
 <div th:each="person : ${people}">
-    <a th:href="@{/people/{id}(id=${person.getId()})}"
-       th:text="${person.getName()} + ', ' + ${person.getAge()}"></a>
+    <a th:class="aa" th:href="@{/people/{id}(id=${person.getId()})}"
+       th:text="${person.getName()} + ', ' + ${person.getAge()}" ></a>
+
 </div>
 <br/>
 <hr/>
