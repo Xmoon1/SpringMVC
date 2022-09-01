@@ -1,41 +1,35 @@
 package ru.connor.springMVC.model;
 
+import javax.persistence.*;
 import javax.validation.constraints.*;
 
+@Entity
+@Table(name = "Person")
 public class Person {
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotEmpty(message = "Name should not be empty")
+    @Column(name = "name")
     @Size(min = 2, max = 30, message = "Name should be between 2 and 30 characters")
     private String name;
     @Min(value = 10, message = "Age should be greater than 9")
+    @Column(name = "age")
     private int age;
     @NotEmpty(message = "Email should not be empty")
     @Email(message = "Email should be valid")
+    @Column(name = "email")
     private String email;
 
-    @NotEmpty(message="Address should not be empty")
-    @Pattern(regexp = "[A-Z]\\w+, [A-Z]\\w+, \\d{6}", message = "Your address should be in this format: Country, City, Postal code: (6 digits)")
-    private String address; // Country, City, index(6 numbers)
-
-
-
-    public Person(int id, String name, int age, String email, String address) {
-        this.id = id;
+    public Person(String name, int age, String email) {
         this.name = name;
         this.email = email;
         this.age = age;
-        this.address = address;
     }
 
     public Person() {}
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
 
     public int getAge() {
         return age;

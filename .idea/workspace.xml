@@ -10,54 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ddfc209-04fc-48ea-be51-d502ebc30c34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e9dde15-9d80-455e-b832-43aa8c27a5ef/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/controller/Project1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/dao/BooksDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/model/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/project1/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/config/MySpringMvcDispatcherSerlvetInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/OldPersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/util/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/book/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/project1/person/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dee1c2-b536-492d-b2cc-2bc49760e7a4/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/connor/springMVC/util/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +49,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.3.22/spring-jdbc-5.3.22.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.class" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ru/connor/springMVC/config/MySpringMvcDispatcherSerlvetInitializer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ru/connor/springMVC/controllers/AdminController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ru/connor/springMVC/controllers/PeopleController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ru/connor/springMVC/dao/PersonDAO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ru/connor/springMVC/util/PersonValidator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -242,6 +232,10 @@
       <workItem from="1661165315107" duration="30754000" />
       <workItem from="1661527115056" duration="2553000" />
       <workItem from="1661588404721" duration="2082000" />
+      <workItem from="1661596439484" duration="1225000" />
+      <workItem from="1661854760578" duration="1000" />
+      <workItem from="1661932531136" duration="4335000" />
+      <workItem from="1661983449201" duration="2510000" />
     </task>
     <servers />
   </component>
